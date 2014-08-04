@@ -25,7 +25,12 @@ Algorithm:
 NOTE: all numbers are kept positive always, we subtract from negative sum, and add to positive sum
 
 -1. advance head pointer by 1
-0. get current value of the head pointer, and remove from negative sum (by adding it's value)
-1. get next-value, multiply by constant, and store new value at head
+0. get current value of the head pointer, and (+) to negative sum (essentially removing it)
+1. get next-value, ~~multiply by a constant~~ and store new value at head
 2. advance rightbrim pointer by 1, add + value to positive sum and + value to negative sum (removing it essentially) 
 3. advance leftbrim pointer by 1, subtract (-) value from positive sum, and (-) value from negative sum
+
+
+4. add (+) positive and negative sums, and then divide by the area of the wavelet.
+
+
