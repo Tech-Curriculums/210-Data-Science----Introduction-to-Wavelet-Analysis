@@ -37,4 +37,6 @@ operations are clearly 3 pointer movements, 1 overwrite, 6 arithmetic for runnin
 
 
 
+would be interesting to see if this can be done more efficiently with three queues.
+
 
