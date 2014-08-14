@@ -119,9 +119,9 @@ int main(void) {
   }
 
 
-
   printf("the negative_sum is %f; the positive_sum is %f \n", negative_sum, positive_sum);
 
+// END INITIAL LOADING PHASE
 
   return 0;
   }
